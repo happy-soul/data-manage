@@ -2,7 +2,7 @@
   <div>
     <div class="panel">
       <div class="panel-heading" @click="moreTool('executeEngin','enginIcon')">
-        <h3 class="panel-title">昆明供电局</h3>
+        <h3 class="panel-title">测试单位</h3>
         <span class="panel-icon el-icon-arrow-up" id="enginIcon">处理中</span>
       </div>
       <div class="panel-body" id="executeEngin" style="display:block">
@@ -55,7 +55,7 @@
     </div>
     <div class="panel">
       <div class="panel-heading" @click="moreTool('paramter','parameterIcon')">
-        <h3 class="panel-title">大理局</h3>
+        <h3 class="panel-title">测试单位</h3>
         <span class="panel-icon el-icon-arrow-down" id="parameterIcon">处理中</span>
       </div>
       <div class="panel-body" id="paramter" style="display:none">
@@ -120,10 +120,10 @@
         setupData: [
           {
             key: '01',
-            label: '营销系统web服务器'
+            label: '测试web服务器'
           }, {
             key: '02',
-            label: '营销系统中间件'
+            label: '测试中间件'
           }
         ],
         setupValue: [],
